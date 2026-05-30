@@ -1,0 +1,19 @@
+{
+  "name": "franchiseops-supply-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static B2B franchise supply operating system prototype for inventory, replenishment, exchange, delivery, and profitability workflows.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "serve": "python3 -m http.server 4173",
+    "check": "node --check app.js"
+  },
+  "keywords": [
+    "b2b",
+    "franchise",
+    "inventory",
+    "facility-supplies",
+    "static-site"
+  ],
+  "license": "UNLICENSED"
+}
