@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FranchiseOps Supply OS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Primary navigation">
+        <div class="brand">
+          <span class="brand-mark">FO</span>
+          <span>FranchiseOps Supply OS</span>
+        </div>
+        <a href="#scope" class="nav-cta">View platform scope</a>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">B2B franchise inventory • replenishment • delivery • profitability</p>
+          <h1>Run cleaning, facility, PPE, equipment, and office supply franchises from one operating system.</h1>
+          <p class="hero-text">
+            Built for chemical/franchise-based B2B suppliers serving offices, hospitals, hotels, schools,
+            commercial buildings, and enterprise clients. Chemical compliance is handled where required,
+            while the broader platform manages stock visibility, account operations, inter-franchise exchange,
+            white-glove delivery, forecasting, and P&amp;L across every product category.
+          </p>
+          <div class="hero-actions">
+            <a href="#workflows" class="button primary">Explore workflows</a>
+            <a href="#categories" class="button secondary">Product categories</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Inventory intelligence highlights">
+          <div class="metric-row">
+            <span>Low-stock SKUs</span>
+            <strong>142</strong>
+          </div>
+          <div class="metric-row warning">
+            <span>Near-expiry chemical batches</span>
+            <strong>18</strong>
+          </div>
+          <div class="metric-row success">
+            <span>White-glove routes ready</span>
+            <strong>27</strong>
+          </div>
+          <div class="metric-row">
+            <span>Excess stock exchange offers</span>
+            <strong>64</strong>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="scope">
+        <div class="section-heading">
+          <p class="eyebrow">Revised product positioning</p>
+          <h2>B2B franchise supply operating system, not only a chemical marketplace.</h2>
+          <p>
+            The platform supports franchise owners who sell cleaning chemicals, janitorial consumables, office
+            supplies, PPE, equipment, spare parts, dispensers, facility products, and customer-specific supply kits.
+          </p>
+        </div>
+        <div class="capability-grid" id="capabilityGrid"></div>
+      </section>
+
+      <section class="section split" id="hierarchy">
+        <div>
+          <p class="eyebrow">Franchise hierarchy</p>
+          <h2>Model every operating layer from franchisor to delivery site.</h2>
+          <p>
+            Parent companies, regional master franchises, local owners, warehouses, stores, field reps,
+            drivers, enterprise customer accounts, and customer sites each get role-aware workflows and reporting.
+          </p>
+        </div>
+        <ol class="timeline" id="hierarchyList"></ol>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="section-heading">
+          <p class="eyebrow">Category-aware product model</p>
+          <h2>Apply the right fields and compliance rules to each product type.</h2>
+          <p>
+            Non-chemical products do not require chemical compliance badges. Product category determines the
+            attributes, replenishment signals, badges, routing cautions, and contract constraints that apply.
+          </p>
+        </div>
+        <div class="category-tabs" role="tablist" aria-label="Product category details" id="categoryTabs"></div>
+        <article class="category-panel" id="categoryPanel" aria-live="polite"></article>
+      </section>
+
+      <section class="section" id="badges">
+        <div class="section-heading">
+          <p class="eyebrow">Trust and compliance</p>
+          <h2>Category-specific badges protect buyers without overburdening sellers.</h2>
+        </div>
+        <div class="badge-columns" id="badgeColumns"></div>
+      </section>
+
+      <section class="section split" id="customer-accounts">
+        <div>
+          <p class="eyebrow">Enterprise account management</p>
+          <h2>Quote-to-order, recurring replenishment, and contract pricing for commercial clients.</h2>
+          <p>
+            Customer accounts support multiple delivery locations, approved product lists, contract prices,
+            preferred delivery days, credit terms, monthly budgets, approval workflows, and assigned franchise
+            or sales representatives.
+          </p>
+        </div>
+        <div class="workflow-card">
+          <h3>Quote-to-order flow</h3>
+          <ul id="quoteFlow"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="workflows">
+        <div class="workflow-grid">
+          <article class="workflow-card accent">
+            <p class="eyebrow">Recurring replenishment</p>
+            <h3>Demand forecasting that prompts reorder quotes.</h3>
+            <p>
+              “Customer ABC usually orders 20 cases of tissue rolls every 28 days. Last order was 25 days ago.
+              Recommend creating a reorder quote this week.”
+            </p>
+            <ul>
+              <li>Uses order frequency, consumption patterns, site size, employee/room/floor counts, last delivery date, monthly supply plans, and seasonality.</li>
+              <li>Recommends safety stock by product, warehouse, customer, and route.</li>
+            </ul>
+          </article>
+          <article class="workflow-card">
+            <p class="eyebrow">Inter-franchise exchange</p>
+            <h3>Move stock privately between verified franchisees, partners, and sellers.</h3>
+            <ul>
+              <li>Private bids, direct requests, transfer requests, excess stock listings, suggested transfer prices, and partial fulfillment.</li>
+              <li>Pickup or delivery options with parent-company approval when required.</li>
+              <li>Protects sensitive network-wide pricing and inventory visibility.</li>
+            </ul>
+          </article>
+          <article class="workflow-card">
+            <p class="eyebrow">Territory and routes</p>
+            <h3>Plan delivery using territory, capacity, priority, and handling logic.</h3>
+            <ul>
+              <li>Serve cities, zones, and PIN codes with vehicle capacity and delivery-window checks.</li>
+              <li>Factor product availability, route cost, priority customers, chemical handling needs, and white-glove service flags.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="profitability">
+        <div class="section-heading">
+          <p class="eyebrow">Profitability analytics</p>
+          <h2>P&amp;L by franchise, customer, category, route, warehouse, rep, order, and white-glove service.</h2>
+        </div>
+        <div class="pnl-grid" id="pnlGrid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <strong>FranchiseOps Supply OS</strong>
+      <span>Built for facility supply franchise owners who need operational control across every product category.</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
